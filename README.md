@@ -2,6 +2,8 @@
 
 You can use the [editor on GitHub](https://github.com/the-phinisher/the-phinisher.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
+[Tic tac toe project](the-phinisher.github.io/tic-tac-toe/index.html)
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
