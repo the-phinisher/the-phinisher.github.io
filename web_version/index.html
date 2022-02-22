@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title> Tic Tac Toe</title>
+</head>
+<body onload="init()">
+    <div id="credit">Minimax Algorithm<br>*Uses 1st party cookies*<br>Author: Gandhar Vabale</div>
+    <div id="wrongMove">Wrong move</div>
+    <input type="range" class="slider" id="difficultySlider" min="1" max="8" value="8" step="1" onchange="difficultyChange('difficultySlider')">
+    <div id="difficultyDisplay"></div>
+    <label class="switch">
+        <input id="assistSwitch" type="checkbox" onchange="_assistSet('assistSwitch')">
+        <span class="switchSlider"></span>
+    </label>
+    <div class="game">
+        <div id="cell00" class="cell" onclick="clickedCell('cell00')"></div>
+        <div id="cell01" class="cell" onclick="clickedCell('cell01')"></div>
+        <div id="cell02" class="cell" onclick="clickedCell('cell02')"></div>
+        <div id="cell10" class="cell" onclick="clickedCell('cell10')"></div>
+        <div id="cell11" class="cell" onclick="clickedCell('cell11')"></div>
+        <div id="cell12" class="cell" onclick="clickedCell('cell12')"></div>
+        <div id="cell20" class="cell" onclick="clickedCell('cell20')"></div>
+        <div id="cell21" class="cell" onclick="clickedCell('cell21')"></div>
+        <div id="cell22" class="cell" onclick="clickedCell('cell22')"></div>
+    </div>
+    <button onclick="init()">Reset</button>
+    <div id="reference">For more information: <a href="http://github.com/the-phinisher/tic-tac-toe"><img src="github.png" alt="Github"></a></div>
+</body>
+</html>
