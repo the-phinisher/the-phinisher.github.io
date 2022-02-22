@@ -50,7 +50,7 @@ body {
 button {
     cursor: pointer;
     position: absolute;
-    top: 85vh;
+    top: 75vh;
     color: darkslategray;
     width: 20vw;
     height: 8vh;
@@ -64,11 +64,16 @@ button {
 #reference {
     position: absolute;
     top: 90vh;
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: slateblue;
+    color: #36373b;
+}
+
+img {
+    width: 4vh;
+    height: 4vh;
 }
