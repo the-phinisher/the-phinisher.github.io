@@ -1,3 +1,10 @@
+# Welcome to My Homepage's repository
+
+The website is currently undergoing changes, mean do check out my projects
+
+-   [Tic-Tac-Toe](https://the-phinisher.github.io/tic-tac-toe)
+-   [Typing](https://the-phinisher.gihub.io/typing)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
