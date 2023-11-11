@@ -6,26 +6,28 @@ const Home = () => {
 		<div className="home">
 			<h1 id="hellow"> Hello World!</h1>
 			<h1>
-				I'm <span id="gandhar">Gandhar</span>
-			</h1>
-			<h2>
-				I'm a
+				I'm{" "}
 				<TypeAnimation
 					sequence={[
-						"n engineer",
+						"Gandhar",
+						10000,
+						"an engineer",
 						2000,
-						" coder",
+						"a coder",
 						2000,
-						"n IITian",
+						"an IITian",
 						2000,
-						" web developer",
+						"a web developer",
 						2000,
 					]}
 					repeat={Infinity}
 					speed={25}
 					deletionSpeed={25}
+					cursor={false}
+					preRenderFirstString
 				/>
-			</h2>
+				.
+			</h1>
 		</div>
 	);
 };
