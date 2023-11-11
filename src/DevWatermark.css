@@ -1,0 +1,17 @@
+.watermark {
+    position:fixed;
+    width: 100%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    transform: rotateZ(315deg);
+    font-weight: 800;
+    font-size: 4rem;
+    opacity: 10%;
+    width: 50vw;
+    text-align: center;
+}

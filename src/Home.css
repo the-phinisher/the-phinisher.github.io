@@ -1,0 +1,15 @@
+#hellow {
+    font-size: 5rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.home {
+    padding: 15%;
+}
+
+span {
+    color: var(--high-cyan);
+}
