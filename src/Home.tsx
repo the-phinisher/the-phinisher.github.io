@@ -6,9 +6,9 @@ const Home = () => {
 		<div className="home">
 			<h1 id="hellow"> Hello World!</h1>
 			<h1>
-				I'm <span>Gandhar</span>
+				I'm <span id="gandhar">Gandhar</span>
 			</h1>
-			<h3>
+			<h2>
 				I'm a
 				<TypeAnimation
 					sequence={[
@@ -25,7 +25,7 @@ const Home = () => {
 					speed={25}
 					deletionSpeed={25}
 				/>
-			</h3>
+			</h2>
 		</div>
 	);
 };
