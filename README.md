@@ -8,6 +8,7 @@ The website is currently undergoing changes, mean do check out my projects
 # Deploying changes
 
 Make sure `main` branch is up to date before deploying
+
 `npm run deploy` to build to gh-pages
 
 # Getting Started with Create React App
